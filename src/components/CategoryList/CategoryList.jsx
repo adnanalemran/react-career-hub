@@ -1,12 +1,13 @@
-
-
 const CategoryList = () => {
-    return (
-        <div>
-            <h2 className="text-5xl text-center">Job Category List</h2>
-            <p className="text-center">Explore thousands of job opportunities with all the information you need. Its your future</p>
-        </div>
-    );
+  return (
+    <div>
+      <h2 className="text-5xl text-center py-4">Job Category List</h2>
+      <div className="flex justify-center gap-4">
+        <button className="btn btn-secondary">Remote</button>
+        <button className="btn btn-secondary">Full time</button>
+      </div>
+    </div>
+  );
 };
 
 export default CategoryList;
